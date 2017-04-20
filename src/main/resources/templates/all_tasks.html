@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'Hello, ' + ${task.name} + '!'" />
+
+<script>
+    jQuery(document).ready(function(){
+        $.get("/task", function(response) {
+            /*load to grid*/
+        })
+    })
+</script>
+
+</body>
+</html>
