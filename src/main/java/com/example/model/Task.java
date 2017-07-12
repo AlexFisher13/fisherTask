@@ -17,5 +17,4 @@ public class Task {
     private Integer id;
 
     private String name;
-
 }
